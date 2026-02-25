@@ -1,0 +1,28 @@
+# ══════════════════════════════════════════
+#  🌟 APON HOSTING PANEL v4.1
+#  Production Dependencies
+#  Developer: @developer_apon
+# ══════════════════════════════════════════
+
+# ── Core Bot Library ──
+pyTelegramBotAPI==4.21.0
+
+# ── Web Server (Keep-Alive) ──
+Flask==3.0.3
+Werkzeug==3.0.4
+
+# ── System Monitoring ──
+psutil==6.0.0
+
+# ── HTTP Requests ──
+requests==2.32.3
+urllib3==2.2.3
+
+# ── Database (built-in sqlite3, no install needed)
+# sqlite3 is included in Python stdlib
+
+# ── Security & Utilities ──
+cryptography==43.0.1
+
+# ── Process Management ──
+setuptools>=70.0.0
